@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define TAM 256
 
 //-------------------------------------------------------------------------------
 /*AVALIAÇÃO COM ARVORE BINARIA DE BUSCA | ED2 2023.1 Manoela Resende 2210100235
@@ -29,13 +30,12 @@ https://en.wikipedia.org/wiki/List_of_Atari_2600_games
 typedef struct Jogo
 {
     //foram escolhidos esses numeros por serem base de 2, e tamanho padrão de memoria
-    char codigo[16];
-    char nome[32];
-    char developer[32];
-    char ano[8];
-    char genero[32];
-    char path_img_capa[256];
-    char path_img_tela[256];
+    char nome[TAM];
+    char developer[TAM];
+    char ano[TAM];
+    char genero[TAM];
+    char path_img_capa[TAM];
+    char path_img_tela[TAM];
     struct Jogo *esq;
     struct Jogo *dir;
 } Jogo;
@@ -44,11 +44,11 @@ typedef struct Jogo
 // protótipo das funções
 //-----------------------
 
-Jogo *criarJogo(const char *codigo, const char *nome, const char *developer, const char *ano, const char *genero, const char *path_img_capa, const char *path_img_tela);
+Jogo *criarJogo(const char *nome, const char *developer, const char *ano, const char *genero, const char *path_img_capa, const char *path_img_tela);
 Jogo *inserirJogo(Jogo *raiz, Jogo *jogo);
-Jogo *buscarJogo(Jogo *raiz, const char *codigo);
+Jogo *buscarJogo(Jogo *raiz, const char *nome);
 Jogo *encontrarMinimo(Jogo *raiz);
-Jogo *removerJogo(Jogo *raiz, const char *codigo);
+Jogo *removerJogo(Jogo *raiz, const char *nome);
 void imprimirJogo(Jogo *jogo);
 void exibirJogos(Jogo *raiz);
 void liberarArvore(Jogo *raiz);
@@ -74,20 +74,19 @@ int main()
         return 1;
     }
 
-    char linha[256];
-    char codigo[16];
-    char nome[32];
-    char developer[32];
-    char ano[8];
-    char genero[32];
-    char path_img_capa[256];
-    char path_img_tela[256];
+    char linha[TAM];
+    char nome[TAM];
+    char developer[TAM];
+    char ano[TAM];
+    char genero[TAM];
+    char path_img_capa[TAM];
+    char path_img_tela[TAM];
     while (fgets(linha, sizeof(linha), arquivo) != NULL)
     {
-        sscanf(linha, "%s %s %s %s %s %s %s\n", codigo, nome, developer, ano, genero, path_img_capa, path_img_tela);
+        sscanf(linha, "%s %s %s %s %s %s\n", nome, developer, ano, genero, path_img_capa, path_img_tela);
         fgets(linha, sizeof(linha), arquivo);
 
-        Jogo *novoJogo = criarJogo(codigo, nome, developer, ano, genero, path_img_capa, path_img_tela); //criando com as informações da tabela
+        Jogo *novoJogo = criarJogo(nome, developer, ano, genero, path_img_capa, path_img_tela); //criando com as informações da tabela
 
         arvoreJogos = inserirJogo(arvoreJogos, novoJogo); //inserindo na arvore
     }
@@ -106,7 +105,7 @@ int main()
         printf("(1) Cadastrar novo jogo\n");
         printf("(2) Editar jogo\n");
         printf("(3) Excluir jogo\n");
-        printf("(4) Consultar jogo por codigo\n");
+        printf("(4) Consultar jogo por nome\n");
         printf("(5) Biblioteca de jogos\n");
         printf("(6) Gravar base de dados em arquivo\n");
         printf("(0) Sair\n");
@@ -120,21 +119,13 @@ int main()
 //-------------------------------------------------------------------------
 
             printf("\n=====================| NOVO JOGO |=====================\n");
-            printf("Digite o codigo do jogo: ");
-            scanf("%s", codigo);
-            if (buscarJogo(arvoreJogos, codigo) != NULL)
-            {
-                printf("Jogo com codigo %s ja cadastrado!\n", codigo);
-                printf("\n========================================================\n");
-                break;
-            }
 
-            char nome[32];
-            char developer[32];
-            char ano[8];
-            char genero[32];
-            char path_img_capa[256];
-            char path_img_tela[256];
+            char nome[TAM];
+            char developer[TAM];
+            char ano[TAM];
+            char genero[TAM];
+            char path_img_capa[TAM];
+            char path_img_tela[TAM];
 
             printf("Digite o nome do jogo: ");
             scanf("%s", nome);
@@ -149,7 +140,7 @@ int main()
             printf("Digite o path da imagem da tela do jogo: ");
             scanf("%s", path_img_tela);
 
-            Jogo *novoJogo = criarJogo(codigo, nome, developer, ano, genero, path_img_capa, path_img_tela);
+            Jogo *novoJogo = criarJogo(nome, developer, ano, genero, path_img_capa, path_img_tela);
 
             arvoreJogos = inserirJogo(arvoreJogos, novoJogo);
 
@@ -162,23 +153,23 @@ int main()
 //-------------------------------------------------------------------------
 
             printf("\n=====================| EDITOR |=====================\n");
-            printf("Digite o codigo do jogo a ser atualizado: ");
-            scanf("%s", codigo);
-            Jogo *jogo = buscarJogo(arvoreJogos, codigo);
+            printf("Digite o nome do jogo a ser atualizado: ");
+            scanf("%s", nome);
+            Jogo *jogo = buscarJogo(arvoreJogos, nome);
             if (jogo == NULL)
             {
-                printf("Jogo com codigo %s nao encontrado!\n", codigo);
+                printf("Jogo com nome %s nao encontrado!\n", nome);
                 printf("\n========================================================\n");
                 break;
             }
 
 
-            char novoNome[32];
-            char novoDeveloper[32];
-            char novoAno[8];
-            char novoGenero[16];
-            char novoPathImagemCapa[256];
-            char novoPathImagemTela[256];
+            char novoNome[TAM];
+            char novoDeveloper[TAM];
+            char novoAno[TAM];
+            char novoGenero[TAM];
+            char novoPathImagemCapa[TAM];
+            char novoPathImagemTela[TAM];
 
             printf("Digite o novo nome do jogo: ");
             scanf("%s", novoNome);
@@ -210,36 +201,36 @@ int main()
 //-------------------------------------------------------------------------
 
             printf("\n====================| EXCLUIR JOGO |====================\n");
-            printf("Digite o codigo do jogo a ser removido: ");
-            scanf("%s", codigo);
-            Jogo *jogoRemover = buscarJogo(arvoreJogos, codigo);
+            printf("Digite o nome do jogo a ser removido: ");
+            scanf("%s", nome);
+            Jogo *jogoRemover = buscarJogo(arvoreJogos, nome);
             if (jogoRemover == NULL)
             {
-                printf("Jogo com codigo %s nao encontrado!\n", codigo);
+                printf("Jogo com nome %s nao encontrado!\n", nome);
                 printf("\n========================================================\n");
                 break;
             }
 
-            arvoreJogos = removerJogo(arvoreJogos, codigo);
+            arvoreJogos = removerJogo(arvoreJogos, nome);
             printf("Jogo removido com sucesso!\n");
             printf("\n========================================================\n");
             break;
 
 //-------------------------------------------------------------------------
-        case 4://BUSCAR OS JOGOS POR CÓDIGO
+        case 4://BUSCAR OS JOGOS POR NOME
 //-------------------------------------------------------------------------
 
             printf("\n=====================| PESQUISAR |=====================\n");
-            printf("Digite o codigo do jogo: ");
-            scanf("%s", codigo);
-            Jogo *game = buscarJogo(arvoreJogos, codigo);
+            printf("Digite o nome do jogo: ");
+            scanf("%s", nome);
+            Jogo *game = buscarJogo(arvoreJogos, nome);
             if (game != NULL)
             {
                 imprimirJogo(game);
 
 
                 // abre a imagem da capa do jogo selecionado
-                char str_arg[256];
+                char str_arg[TAM];
                 strcpy(str_arg, "explorer ");
                 strcat(str_arg, game->path_img_capa);
                 system(str_arg);
@@ -272,7 +263,7 @@ int main()
             printf("\n=====================| SALVAR ARQUIVO |=====================\n");
             
             printf("Digite o nome do arquivo para gravar os dados\n(acrescente '.txt' apos o nome esolhido): ");//pra ser arquivo de texto
-            char nomeArquivo[32];
+            char nomeArquivo[TAM];
             scanf("%s", nomeArquivo);//usuario escolhe o nome
 
             FILE *arquivo = fopen(nomeArquivo, "w"); //abre o arquivo para escrita
@@ -321,10 +312,9 @@ int main()
 //----------------------
 //criar novo jogo
 //----------------------
-Jogo *criarJogo(const char *codigo, const char *nome, const char *developer, const char *ano, const char *genero, const char *path_img_capa, const char *path_img_tela)
+Jogo *criarJogo(const char *nome, const char *developer, const char *ano, const char *genero, const char *path_img_capa, const char *path_img_tela)
 {
     Jogo *novoJogo = (Jogo *)malloc(sizeof(Jogo));
-    strcpy(novoJogo->codigo, codigo);
     strcpy(novoJogo->nome, nome);
     strcpy(novoJogo->developer, developer);
     strcpy(novoJogo->ano, ano);
@@ -345,9 +335,9 @@ Jogo *inserirJogo(Jogo *raiz, Jogo *jogo)
     if (raiz == NULL)
         return jogo;
 
-    if (strcmp(jogo->codigo, raiz->codigo) < 0)
+    if (strcmp(jogo->nome, raiz->nome) < 0)
         raiz->esq = inserirJogo(raiz->esq, jogo);
-    else if (strcmp(jogo->codigo, raiz->codigo) > 0)
+    else if (strcmp(jogo->nome, raiz->nome) > 0)
         raiz->dir = inserirJogo(raiz->dir, jogo);
 
     return raiz;
@@ -355,17 +345,17 @@ Jogo *inserirJogo(Jogo *raiz, Jogo *jogo)
 
 
 //---------------------------------------
-// buscar um jogo na arvore por codigo
+// buscar um jogo na arvore por nome
 //------------------------------------------
-Jogo *buscarJogo(Jogo *raiz, const char *codigo)
+Jogo *buscarJogo(Jogo *raiz, const char *nome)
 {
-    if (raiz == NULL || strcmp(codigo, raiz->codigo) == 0)
+    if (raiz == NULL || strcmp(nome, raiz->nome) == 0)
         return raiz;
 
-    if (strcmp(codigo, raiz->codigo) < 0)
-        return buscarJogo(raiz->esq, codigo);
+    if (strcmp(nome, raiz->nome) < 0)
+        return buscarJogo(raiz->esq, nome);
     else
-        return buscarJogo(raiz->dir, codigo);
+        return buscarJogo(raiz->dir, nome);
 }
 
 
@@ -389,21 +379,21 @@ Jogo *encontrarMinimo(Jogo *raiz)
 //---------------------------------------
 // remover um jogo da árvore
 //------------------------------------------
-Jogo *removerJogo(Jogo *raiz, const char *codigo)
+Jogo *removerJogo(Jogo *raiz, const char *nome)
 {
     if (raiz == NULL)
     {
         return NULL;
     }
 
-    int comparacao = strcmp(codigo, raiz->codigo);
+    int comparacao = strcmp(nome, raiz->nome);
     if (comparacao < 0)
     {
-        raiz->esq = removerJogo(raiz->esq, codigo);
+        raiz->esq = removerJogo(raiz->esq, nome);
     }
     else if (comparacao > 0)
     {
-        raiz->dir = removerJogo(raiz->dir, codigo);
+        raiz->dir = removerJogo(raiz->dir, nome);
     }
     else
     {
@@ -431,8 +421,8 @@ Jogo *removerJogo(Jogo *raiz, const char *codigo)
         else
         {
             Jogo *temp = encontrarMinimo(raiz->dir);
-            strcpy(raiz->codigo, temp->codigo);
-            raiz->dir = removerJogo(raiz->dir, temp->codigo);
+            strcpy(raiz->nome, temp->nome);
+            raiz->dir = removerJogo(raiz->dir, temp->nome);
         }
     }
 
@@ -446,7 +436,6 @@ Jogo *removerJogo(Jogo *raiz, const char *codigo)
 void imprimirJogo(Jogo *jogo)
 {
     printf("\n====================| %s |=====================\n", jogo->nome);
-    printf("\nCodigo: %s\n", jogo->codigo);
     printf("Nome: %s\n", jogo->nome);
     printf("Desenvolvido por: %s\n", jogo->developer);
     printf("Ano de Lancamento: %s\n", jogo->ano);
@@ -493,7 +482,6 @@ void gravarDados(Jogo *raiz, FILE *arquivo)
         gravarDados(raiz->esq, arquivo);
 
         fprintf(arquivo,"\n====================| %s |=====================\n", raiz->nome);
-        fprintf(arquivo,"\nCodigo: %s\n", raiz->codigo);
         fprintf(arquivo,"Nome: %s\n", raiz->nome);
         fprintf(arquivo,"Desenvolvido por: %s\n", raiz->developer);
         fprintf(arquivo,"Ano de Lancamento: %s\n", raiz->ano);
