@@ -309,9 +309,6 @@ int main()
 //-------------------------------------------------------------------------
 
 
-//----------------------
-//criar novo jogo
-//----------------------
 Jogo *criarJogo(const char *nome, const char *developer, const char *ano, const char *genero, const char *path_img_capa, const char *path_img_tela)
 {
     Jogo *novoJogo = (Jogo *)malloc(sizeof(Jogo));
