@@ -1,0 +1,5 @@
+
+*.json
+arvbin_atari/output/oi.dot
+arvbin_atari/output/teste.dot
+arvbin_atari/output/tst.dot

@@ -17,6 +17,9 @@ typedef struct Jogo
     int altura;
 } Jogo;
 
+typedef unsigned int* colorattr;
+
+
 int max(int a, int b);
 Jogo *criarJogo(const char *nome, const char *developer, const char *ano, const char *genero, const char *path_img_capa, const char *path_img_tela);
 Jogo *inserirJogo(Jogo *raiz, Jogo *jogo);
@@ -33,7 +36,7 @@ void imprimirJogo(Jogo *jogo);
 void exibirJogos(Jogo *raiz);
 void liberarArvore(Jogo *raiz);
 void gravarDados(Jogo *raiz, FILE *arquivo);
-void gerarGraphvizRecursivo(Jogo *no, FILE *arquivo);
+void gerarGraphvizRecursivo(Jogo *no, FILE *arquivo, colorattr nodecor[], colorattr fontcor[], int *contador);
 void gerarGraphviz(Jogo *raiz, const char *nomeArquivo);
 void gerarArquivoGraphviz(Jogo *raiz);
 
@@ -468,7 +471,7 @@ Jogo *removerJogo(Jogo *raiz, const char *nome)
             raiz = raiz->dir;
             free(temp);
         }
-        // Caso 3: O jogo possui apenas um filho à esquerda
+        // Caso 3: O jogo possui apenas um filho à esq
         else if (raiz->dir == NULL)
         {
             Jogo *temp = raiz;
@@ -551,43 +554,79 @@ void gravarDados(Jogo *raiz, FILE *arquivo)
     }
 }
 
-// Função auxiliar para gerar o conteúdo Graphviz recursivamente
-void gerarGraphvizRecursivo(Jogo *no, FILE *arquivo)
-{
+
+/* void setnodecolor(colorattr nodecor[], colorattr fontcor[], int i, int r, int g, int b) {
+    // Calcula a cor do nó baseada nos valores r, g e b
+    nodecor[i] = b | (g << 8) | (r << 16);
+    
+    // Calcula a luminosidade da cor usando a fórmula da média
+    int luma = (r + g + b) / 3;
+    
+    // Define a cor da fonte do nó como branco (255) ou preto (0) dependendo da luminosidade
+    fontcor[i] = luma > 127 ? 0xFFFFFF : 0x000000;
+} */
+
+void setnodecolor(colorattr nodecor[], colorattr fontcor[], int i, const char* nome) {
+    unsigned long hash = 5381;
+    int c;
+
+    while ((c = *nome++)) {
+        hash = ((hash << 5) + hash) + c; // Função de hash djb2
+    }
+
+    int r = (hash & 0xFF0000) >> 16;  // Componente vermelho (bits 16-23)
+    int g = (hash & 0x00FF00) >> 8;   // Componente verde (bits 8-15)
+    int b = hash & 0x0000FF;          // Componente azul (bits 0-7)
+    
+    // Calcula a cor do nó baseada nos valores r, g e b
+    nodecor[i] = b | (g << 8) | (r << 16);
+    
+    // Calcula a luminosidade da cor usando a fórmula da média
+    int luma = (r + g + b) / 3;
+    
+    // Define a cor da fonte do nó como branco (255) ou preto (0) dependendo da luminosidade
+    fontcor[i] = luma > 127 ? 0x000000 : 0xFFFFFF;
+}
+
+void gerarGraphvizRecursivo(Jogo *no, FILE *arquivo, colorattr nodecor[], colorattr fontcor[], int *contador) {
     if (no == NULL)
         return;
 
-    // Escreve o nó atual no arquivo com um formato especial
-    fprintf(arquivo, "\"%s\" [label=\"%s\", style=filled, fillcolor=\"#FFFF00\"];\n", no->nome, no->nome);
+    int i = (*contador)++;
 
-    // Chamada recursiva para os nós filhos
-    gerarGraphvizRecursivo(no->esq, arquivo);
-    gerarGraphvizRecursivo(no->dir, arquivo);
+    // Chama a função setnodecolor para calcular a cor do nó com base no nome
+    setnodecolor(nodecor, fontcor, i, no->nome);
+    
+    // Escreve o nó com a cor calculada
+    fprintf(arquivo, "\"%s\" [label=\"%s\", style=filled, fillcolor=\"#%06X\", fontcolor=\"#%06X\"];\n", no->nome, no->nome, nodecor[i], fontcor[i]);
 
-    // Escreve as arestas para os nós filhos
-    if (no->esq != NULL)
+    if (no->esq != NULL) {
         fprintf(arquivo, "\"%s\" -> \"%s\";\n", no->nome, no->esq->nome);
-    if (no->dir != NULL)
+        gerarGraphvizRecursivo(no->esq, arquivo, nodecor, fontcor, contador);
+    }
+
+    if (no->dir != NULL) {
         fprintf(arquivo, "\"%s\" -> \"%s\";\n", no->nome, no->dir->nome);
+        gerarGraphvizRecursivo(no->dir, arquivo, nodecor, fontcor, contador);
+    }
 }
 
-// Função para gerar o arquivo Graphviz
-void gerarGraphviz(Jogo *raiz, const char *nomeArquivo)
-{
+
+void gerarGraphviz(Jogo *raiz, const char *nomeArquivo) {
     FILE *arquivo = fopen(nomeArquivo, "w");
-    if (arquivo == NULL)
-    {
+    if (arquivo == NULL) {
         printf("Erro ao abrir o arquivo %s\n", nomeArquivo);
         return;
     }
 
-    // Escreve o cabeçalho do arquivo Graphviz
     fprintf(arquivo, "digraph ArvoreJogos {\n");
 
-    // Chama a função auxiliar recursiva para gerar o conteúdo
-    gerarGraphvizRecursivo(raiz, arquivo);
+    colorattr nodecor[100]; // Array para armazenar as cores dos nós
+    colorattr fontcor[100]; // Array para armazenar as cores da fonte dos nós
+    int contador = 0;
 
-    // Escreve o rodapé do arquivo Graphviz
+    gerarGraphvizRecursivo(raiz, arquivo, nodecor, fontcor, &contador);
+
     fprintf(arquivo, "}\n");
 
     fclose(arquivo);
