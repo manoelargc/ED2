@@ -555,17 +555,6 @@ void gravarDados(Jogo *raiz, FILE *arquivo)
 }
 
 
-/* void setnodecolor(colorattr nodecor[], colorattr fontcor[], int i, int r, int g, int b) {
-    // Calcula a cor do nó baseada nos valores r, g e b
-    nodecor[i] = b | (g << 8) | (r << 16);
-    
-    // Calcula a luminosidade da cor usando a fórmula da média
-    int luma = (r + g + b) / 3;
-    
-    // Define a cor da fonte do nó como branco (255) ou preto (0) dependendo da luminosidade
-    fontcor[i] = luma > 127 ? 0xFFFFFF : 0x000000;
-} */
-
 void setnodecolor(colorattr nodecor[], colorattr fontcor[], int i, const char* nome) {
     unsigned long hash = 5381;
     int c;
@@ -619,7 +608,7 @@ void gerarGraphviz(Jogo *raiz, const char *nomeArquivo) {
         return;
     }
 
-    fprintf(arquivo, "digraph ArvoreJogos {\n");
+    fprintf(arquivo, "digraph ArvoreJogos { rankdir=\"LR\"\n");
 
     colorattr nodecor[100]; // Array para armazenar as cores dos nós
     colorattr fontcor[100]; // Array para armazenar as cores da fonte dos nós
