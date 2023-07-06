@@ -1,11 +1,2 @@
-arvbin_atari/output/tst.dot
-.vscode/launch.json
 
-.vscode/c_cpp_properties.json
-.vscode/settings.json
-arvbin_atari/output/oi.dot
-arvbin_atari/output/teste.dot
-arvbin_atari/output/grafo_jogos.png
-arvbin_atari/output/flamengo.png
-arvbin_atari/output/flamengo.dot
-*.exe
+arvbin_atari/output/arvbin_atari.exe
