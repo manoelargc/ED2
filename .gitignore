@@ -8,3 +8,4 @@ arvbin_atari/output/teste.dot
 arvbin_atari/output/grafo_jogos.png
 arvbin_atari/output/flamengo.png
 arvbin_atari/output/flamengo.dot
+*.exe
