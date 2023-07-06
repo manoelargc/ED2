@@ -36,9 +36,9 @@ void imprimirJogo(Jogo *jogo);
 void exibirJogos(Jogo *raiz);
 void liberarArvore(Jogo *raiz);
 void gravarDados(Jogo *raiz, FILE *arquivo);
-void gerarGraphvizRecursivo(Jogo *no, FILE *arquivo, colorattr nodecor[], colorattr fontcor[], int *contador);
+void escreveGrafo(Jogo *no, FILE *arquivo, colorattr nodecor[], colorattr fontcor[], int *contador);
 void gerarGraphviz(Jogo *raiz, const char *nomeArquivo);
-void gerarArquivoGraphviz(Jogo *raiz);
+void gravarArquivoGraphviz(Jogo *raiz);
 
 //------------
 // execução
@@ -48,9 +48,9 @@ int main()
 {
     Jogo *arvoreJogos = NULL;
 
-    //-------------------------------------------------------------------------
+    //----------------------------------------------------------------------
     //============ CARREGANDO OS JOGOS JÁ EXISTENTES NO ATARI 2600 ============
-    //-------------------------------------------------------------------------
+    //----------------------------------------------------------------------
 
     FILE *arquivo = fopen("lista_jogos.txt", "r"); // arquivo com a lista dos jogos das tabelas do link
     if (arquivo == NULL)
@@ -81,9 +81,9 @@ int main()
 
     int comparacoes = 0;
 
-    //-------------------------------------------------------------------------
+    //----------------------------------------------------------------------
     //============================== INTERFACE ================================
-    //-------------------------------------------------------------------------
+    //----------------------------------------------------------------------
 
     do
     {
@@ -101,9 +101,9 @@ int main()
 
         switch (opcao)
         {
-            //-------------------------------------------------------------------------
+            //----------------------------------------------------------------------
         case 1: // CADASTRO DO NOVO JOGO
-            //-------------------------------------------------------------------------
+            //----------------------------------------------------------------------
 
             printf("\n=====================| NOVO JOGO |=====================\n");
 
@@ -135,9 +135,9 @@ int main()
             printf("\n========================================================\n");
             break;
 
-            //-------------------------------------------------------------------------
+            //----------------------------------------------------------------------
         case 2: // ATUALIZAR JOGO JÁ EXISTENTE / EDITAR
-            //-------------------------------------------------------------------------
+            //----------------------------------------------------------------------
             printf("\n=====================| EDITOR |=====================\n");
             printf("Digite o nome do jogo a ser atualizado: ");
             scanf("%s", nome);
@@ -181,9 +181,9 @@ int main()
             printf("\n========================================================\n");
             break;
 
-            //-------------------------------------------------------------------------
+            //----------------------------------------------------------------------
         case 3: // REMOVER JOGO JÁ EXISTENTE
-            //-------------------------------------------------------------------------
+            //----------------------------------------------------------------------
 
             printf("\n====================| EXCLUIR JOGO |====================\n");
             printf("Digite o nome do jogo a ser removido: ");
@@ -201,9 +201,9 @@ int main()
             printf("\n========================================================\n");
             break;
 
-            //-------------------------------------------------------------------------
+            //----------------------------------------------------------------------
         case 4: // BUSCAR OS JOGOS POR NOME
-            //-------------------------------------------------------------------------
+            //----------------------------------------------------------------------
 
             printf("\n=====================| PESQUISAR |=====================\n");
             printf("Digite o nome do jogo: ");
@@ -236,15 +236,15 @@ int main()
             printf("\n========================================================\n");
             break;
 
-            //-------------------------------------------------------------------------
+            //----------------------------------------------------------------------
         case 5: // MOSTRAR TODOS OS JOGOS
-            //-------------------------------------------------------------------------
+            //----------------------------------------------------------------------
             exibirJogos(arvoreJogos);
             break;
 
-            //-------------------------------------------------------------------------
+            //----------------------------------------------------------------------
         case 6: // GRAVAR BASE DE DADOS NUM ARQUIVO
-            //-------------------------------------------------------------------------
+            //----------------------------------------------------------------------
 
             printf("\n=====================| SALVAR ARQUIVO |=====================\n");
 
@@ -268,11 +268,11 @@ int main()
             // break;
             break;
 
-            //-------------------------------------------------------------------------
+            //----------------------------------------------------------------------
         case 7: // CRIAR UM ARQUIVO DO GRAFO DA ARVORE NO GRAPHVIZ
-            //-------------------------------------------------------------------------
+            //----------------------------------------------------------------------
             printf("\n=====================| GERAR GRAFO |=====================\n");
-            gerarArquivoGraphviz(arvoreJogos);
+            gravarArquivoGraphviz(arvoreJogos);
             printf("\n========================================================\n");
             break;
 
@@ -297,10 +297,14 @@ int main()
     return 0;
 }
 
-//-------------------------------------------------------------------------
+//----------------------------------------------------------------------
 //============================== FUNÇÕES ==================================
-//-------------------------------------------------------------------------
+//----------------------------------------------------------------------
 
+
+//---------------------------------------
+// cria um jogo 
+//---------------------------------------
 Jogo *criarJogo(const char *nome, const char *developer, const char *ano, const char *genero, const char *path_img_capa, const char *path_img_tela)
 {
     Jogo *novoJogo = (Jogo *)malloc(sizeof(Jogo));
@@ -316,6 +320,9 @@ Jogo *criarJogo(const char *nome, const char *developer, const char *ano, const 
     return novoJogo;
 }
 
+//---------------------------------------
+// calcula a altura de um nodo na arvore
+//---------------------------------------
 int altura(Jogo *no)
 {
     if (no == NULL)
@@ -323,11 +330,17 @@ int altura(Jogo *no)
     return no->altura;
 }
 
+//---------------------------------------
+// função auxiliar que retorna o maximo entre 2 valores
+//---------------------------------------
 int max(int a, int b)
 {
     return (a > b) ? a : b;
 }
 
+//---------------------------------------
+// calcula o fator de balanceamento em cada nodo da arvore
+//---------------------------------------
 int fatorBalanceamento(Jogo *no)
 {
     if (no == NULL)
@@ -335,88 +348,111 @@ int fatorBalanceamento(Jogo *no)
     return altura(no->esq) - altura(no->dir);
 }
 
+//---------------------------------------
+// realiza a rotacao simples a direita em um nodo
+//---------------------------------------
 Jogo *rotacaoDireita(Jogo *no)
 {
     Jogo *esq = no->esq;
     Jogo *esqDir = esq->dir;
 
+    // faz a rotacao
     esq->dir = no;
     no->esq = esqDir;
 
+    // atualiza as alturas dos nodos afetados pela rotacao
     no->altura = 1 + max(altura(no->esq), altura(no->dir));
     esq->altura = 1 + max(altura(esq->esq), altura(esq->dir));
 
-    return esq;
+    return esq; // retorna o novo nodo raiz
 }
 
+//---------------------------------------
+// rotacao simples a esquerda do nodo
+//---------------------------------------
 Jogo *rotacaoEsquerda(Jogo *no)
 {
     Jogo *dir = no->dir;
     Jogo *dirEsq = dir->esq;
 
+    // faz a rotacao
     dir->esq = no;
     no->dir = dirEsq;
 
+    // atualiza as alturas dos nodos afetados pela rotacao
     no->altura = 1 + max(altura(no->esq), altura(no->dir));
     dir->altura = 1 + max(altura(dir->esq), altura(dir->dir));
 
-    return dir;
-}
-
-Jogo *rotacaoDuplaDireita(Jogo *no)
-{
-    no->esq = rotacaoEsquerda(no->esq);
-    return rotacaoDireita(no);
-}
-
-Jogo *rotacaoDuplaEsquerda(Jogo *no)
-{
-    no->dir = rotacaoDireita(no->dir);
-    return rotacaoEsquerda(no);
-}
-
-// Função para inserir um jogo na árvore AVL
-// Atualize a função para retornar o número de comparações feitas
-Jogo *inserirJogo(Jogo *raiz, Jogo *jogo)
-{
-    if (raiz == NULL)
-        return jogo;
-
-    if (strcmp(jogo->nome, raiz->nome) < 0)
-        raiz->esq = inserirJogo(raiz->esq, jogo);
-    else if (strcmp(jogo->nome, raiz->nome) > 0)
-        raiz->dir = inserirJogo(raiz->dir, jogo);
-    else
-        return raiz;
-
-    raiz->altura = 1 + max(altura(raiz->esq), altura(raiz->dir));
-
-    int balanceamento = fatorBalanceamento(raiz);
-
-    if (balanceamento > 1 && strcmp(jogo->nome, raiz->esq->nome) < 0)
-        return rotacaoDireita(raiz);
-
-    if (balanceamento < -1 && strcmp(jogo->nome, raiz->dir->nome) > 0)
-        return rotacaoEsquerda(raiz);
-
-    if (balanceamento > 1 && strcmp(jogo->nome, raiz->esq->nome) > 0)
-        return rotacaoDuplaDireita(raiz);
-
-    if (balanceamento < -1 && strcmp(jogo->nome, raiz->dir->nome) < 0)
-        return rotacaoDuplaEsquerda(raiz);
-
-    return raiz;
+    return dir; // retorna o novo nodo raiz
 }
 
 //---------------------------------------
+// realiza rotacao dupla a direita do nodo
+//---------------------------------------
+Jogo *rotacaoDuplaDireita(Jogo *no)
+{
+    // faz a rotacao dupla a direita
+    no->esq = rotacaoEsquerda(no->esq);
+    return rotacaoDireita(no); // retorna o novo nodo raiz
+}
+
+//---------------------------------------
+// rotacao dupla a esquerda do nodo
+//---------------------------------------
+Jogo *rotacaoDuplaEsquerda(Jogo *no)
+{
+    // faz a rotacao dupla a esquerda
+    no->dir = rotacaoDireita(no->dir);
+    return rotacaoEsquerda(no); // retorna o novo nodo raiz
+}
+
+
+//---------------------------------------
+// insere um jogo na arvore AVL
+//---------------------------------------
+
+Jogo *inserirJogo(Jogo *raiz, Jogo *jogo)
+{
+    if (raiz == NULL)
+        return jogo;  // se a raiz for nula, o jogo é inserido como raiz da arvore
+
+    if (strcmp(jogo->nome, raiz->nome) < 0)
+        raiz->esq = inserirJogo(raiz->esq, jogo);  // se o nome do jogo for menor que o nome do nodo atual, o jogo é inserido na subarvore esquerda
+    else if (strcmp(jogo->nome, raiz->nome) > 0)
+        raiz->dir = inserirJogo(raiz->dir, jogo);  // se for maior que o nome do atual, é inserido na subarvore direita
+    else
+        return raiz;  // se for igual ao nome do nodo atual, o jogo já existe na arvore e retorna a raiz sem fazer mudancas
+
+    raiz->altura = 1 + max(altura(raiz->esq), altura(raiz->dir));  // atualiza a altura do nodo raiz
+
+    int balanceamento = fatorBalanceamento(raiz);  // calcula o fator de balanceamento do nodo raiz
+
+    // Realiza as rotações necessárias para balancear a arvore
+    if (balanceamento > 1 && strcmp(jogo->nome, raiz->esq->nome) < 0)
+        return rotacaoDireita(raiz); 
+
+    if (balanceamento < -1 && strcmp(jogo->nome, raiz->dir->nome) > 0)
+        return rotacaoEsquerda(raiz);  
+
+    if (balanceamento > 1 && strcmp(jogo->nome, raiz->esq->nome) > 0)
+        return rotacaoDuplaDireita(raiz);  
+
+    if (balanceamento < -1 && strcmp(jogo->nome, raiz->dir->nome) < 0)
+        return rotacaoDuplaEsquerda(raiz);  
+
+    return raiz;  // retorna a raiz atualizada
+}
+
+
+//---------------------------------------
 // buscar um jogo na arvore por nome
-//------------------------------------------
+//---------------------------------------
 Jogo *buscarJogo(Jogo *raiz, const char *nome, int *comparacoes)
 {
     if (raiz == NULL || strcmp(nome, raiz->nome) == 0)
         return raiz;
 
-    (*comparacoes)++;
+    (*comparacoes)++;// incrementa pra depois retornar o numero de comparações feitas
 
     if (strcmp(nome, raiz->nome) < 0)
         return buscarJogo(raiz->esq, nome, comparacoes);
@@ -428,20 +464,20 @@ Jogo *encontrarMinimo(Jogo *raiz)
 {
     if (raiz == NULL)
     {
-        return NULL;
+        return NULL;  // nao tem nenhum elemento
     }
 
     while (raiz->esq != NULL)
     {
-        raiz = raiz->esq;
+        raiz = raiz->esq;  // percorre a arvore pela subarvore esquerda até encontrar o nodo mais à esquerda
     }
 
-    return raiz;
+    return raiz;  // Retorna o nodo mais à esquerda, que é o nodo com o valor mínimo
 }
 
 //---------------------------------------
-// remover um jogo da árvore
-//------------------------------------------
+// remover um jogo da arvore
+//---------------------------------------
 Jogo *removerJogo(Jogo *raiz, const char *nome)
 {
     if (raiz == NULL)
@@ -466,14 +502,14 @@ Jogo *removerJogo(Jogo *raiz, const char *nome)
             free(raiz);
             raiz = NULL;
         }
-        // Caso 2: O jogo possui apenas um filho à direita
+        // Caso 2: O jogo possui apenas um filho a direita
         else if (raiz->esq == NULL)
         {
             Jogo *temp = raiz;
             raiz = raiz->dir;
             free(temp);
         }
-        // Caso 3: O jogo possui apenas um filho à esq
+        // Caso 3: O jogo possui apenas um filho a esq
         else if (raiz->dir == NULL)
         {
             Jogo *temp = raiz;
@@ -494,7 +530,7 @@ Jogo *removerJogo(Jogo *raiz, const char *nome)
 
 //---------------------------------------
 // imprimir os dados de um jogo
-//------------------------------------------
+//---------------------------------------
 void imprimirJogo(Jogo *jogo)
 {
     printf("\n====================| %s |=====================\n", jogo->nome);
@@ -509,7 +545,7 @@ void imprimirJogo(Jogo *jogo)
 
 //---------------------------------------
 // mostrar todos os jogos em ordem
-//------------------------------------------
+//---------------------------------------
 void exibirJogos(Jogo *raiz)
 {
     if (raiz != NULL)
@@ -522,8 +558,8 @@ void exibirJogos(Jogo *raiz)
 }
 
 //---------------------------------------
-// liberar memoria alocada da árvore
-//------------------------------------------
+// liberar memoria alocada da arvore
+//---------------------------------------
 void liberarArvore(Jogo *raiz)
 {
     if (raiz != NULL)
@@ -536,7 +572,7 @@ void liberarArvore(Jogo *raiz)
 
 //---------------------------------------
 // gravar dados num arquivo
-//------------------------------------------
+//---------------------------------------
 void gravarDados(Jogo *raiz, FILE *arquivo)
 {
     if (raiz != NULL)
@@ -557,6 +593,9 @@ void gravarDados(Jogo *raiz, FILE *arquivo)
 }
 
 
+//---------------------------------------
+// colocar cor em cada nodo
+//---------------------------------------
 void setnodecolor(colorattr nodecor[], colorattr fontcor[], int i, const char* nome) {
     unsigned long hash = 5381;
     int c;
@@ -569,40 +608,45 @@ void setnodecolor(colorattr nodecor[], colorattr fontcor[], int i, const char* n
     int g = (hash & 0x00FF00) >> 8;   // Componente verde (bits 8-15)
     int b = hash & 0x0000FF;          // Componente azul (bits 0-7)
     
-    // Calcula a cor do nó baseada nos valores r, g e b
+    // calcula a cor do nodo baseada nos valores r, g e b
     nodecor[i] = b | (g << 8) | (r << 16);
     
-    // Calcula a luminosidade da cor usando a fórmula da média
+    // calcula a luminosidade da cor usando a fórmula da média
     int luma = (r + g + b) / 3;
     
-    // Define a cor da fonte do nó como branco (255) ou preto (0) dependendo da luminosidade
+    // Define a cor da fonte do nodo como branco (255) ou preto (0) dependendo da luminosidade
     fontcor[i] = luma > 127 ? 0x000000 : 0xFFFFFF;
 }
 
-void gerarGraphvizRecursivo(Jogo *no, FILE *arquivo, colorattr nodecor[], colorattr fontcor[], int *contador) {
+//---------------------------------------
+// função auxiliar para gerar o grafo
+//---------------------------------------
+void escreveGrafo(Jogo *no, FILE *arquivo, colorattr nodecor[], colorattr fontcor[], int *contador) {
     if (no == NULL)
         return;
 
     int i = (*contador)++;
 
-    // Chama a função setnodecolor para calcular a cor do nó com base no nome
+    // Chama a função setnodecolor para calcular a cor do nodo com base no nome
     setnodecolor(nodecor, fontcor, i, no->nome);
     
-    // Escreve o nó com a cor calculada
+    // Escreve o nodo com a cor calculada
     fprintf(arquivo, "\"%s\" [label=\"%s\", style=filled, fillcolor=\"#%06X\", fontcolor=\"#%06X\"];\n", no->nome, no->nome, nodecor[i], fontcor[i]);
 
     if (no->esq != NULL) {
         fprintf(arquivo, "\"%s\" -> \"%s\";\n", no->nome, no->esq->nome);
-        gerarGraphvizRecursivo(no->esq, arquivo, nodecor, fontcor, contador);
+        escreveGrafo(no->esq, arquivo, nodecor, fontcor, contador);
     }
 
     if (no->dir != NULL) {
         fprintf(arquivo, "\"%s\" -> \"%s\";\n", no->nome, no->dir->nome);
-        gerarGraphvizRecursivo(no->dir, arquivo, nodecor, fontcor, contador);
+        escreveGrafo(no->dir, arquivo, nodecor, fontcor, contador);
     }
 }
 
-
+//---------------------------------------
+// função principal pra gerar o grafo no graphviz 
+//---------------------------------------
 void gerarGraphviz(Jogo *raiz, const char *nomeArquivo) {
     FILE *arquivo = fopen(nomeArquivo, "w");
     if (arquivo == NULL) {
@@ -612,11 +656,11 @@ void gerarGraphviz(Jogo *raiz, const char *nomeArquivo) {
 
     fprintf(arquivo, "digraph ArvoreJogos { rankdir=\"LR\"\n");
 
-    colorattr nodecor[100]; // Array para armazenar as cores dos nós
-    colorattr fontcor[100]; // Array para armazenar as cores da fonte dos nós
+    colorattr nodecor[100]; // vetor para armazenar as cores dos nodos
+    colorattr fontcor[100]; // vetor para armazenar as cores da fonte dos nodos
     int contador = 0;
 
-    gerarGraphvizRecursivo(raiz, arquivo, nodecor, fontcor, &contador);
+    escreveGrafo(raiz, arquivo, nodecor, fontcor, &contador);
 
     fprintf(arquivo, "}\n");
 
@@ -624,8 +668,10 @@ void gerarGraphviz(Jogo *raiz, const char *nomeArquivo) {
     printf("Arquivo Graphviz gerado com sucesso: %s\n", nomeArquivo);
 }
 
-// Função para gerar um arquivo Graphviz com nós e nomes usando cores
-void gerarArquivoGraphviz(Jogo *raiz)
+//---------------------------------------
+// grava o arquivo do grafo em .dot e .png
+//---------------------------------------
+void gravarArquivoGraphviz(Jogo *raiz)
 {
     char nomeArquivo[256];
     printf("Digite o nome do arquivo para gerar o Graphviz (acrescente '.dot' ao nome): ");
