@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+//Manoela Resende
+
 #define TAM 256
 
 typedef struct Jogo
