@@ -1,0 +1,2270 @@
+
+====================| 3-D-Tic-Tac-Toe |=====================
+Nome: 3-D-Tic-Tac-Toe
+Desenvolvido por: Carol-Shaw
+Ano de Lancamento: 1978
+Genero: Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| A-Game-of-Concentration |=====================
+Nome: A-Game-of-Concentration
+Desenvolvido por: Jim-Huether
+Ano de Lancamento: 1978
+Genero: Traditional
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Acid-Drop |=====================
+Nome: Acid-Drop
+Desenvolvido por: Dennis-Kiss
+Ano de Lancamento: 1992
+Genero: Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Adventures-of-Tron |=====================
+Nome: Adventures-of-Tron
+Desenvolvido por: APh-Technological-Consulting
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Air-Raid |=====================
+Nome: Air-Raid
+Desenvolvido por: MenAVision
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Air-Sea-Battle |=====================
+Nome: Air-Sea-Battle
+Desenvolvido por: Larry-Kaplan
+Ano de Lancamento: 1977
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Alien |=====================
+Nome: Alien
+Desenvolvido por: 20th-Century-Fox
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Amidar |=====================
+Nome: Amidar
+Desenvolvido por: Parker-Brothers
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Artillery-Duel/Chuck-Norris-Superkicks |=====================
+Nome: Artillery-Duel/Chuck-Norris-Superkicks
+Desenvolvido por: Xonox
+Ano de Lancamento: 1983
+Genero: Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Artillery-Duel/Spike's-Peak |=====================
+Nome: Artillery-Duel/Spike's-Peak
+Desenvolvido por: Xonox
+Ano de Lancamento: 1983
+Genero: Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Assault |=====================
+Nome: Assault
+Desenvolvido por: Bomb
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Asterix |=====================
+Nome: Asterix
+Desenvolvido por: Steve-Woita
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: https://i.ytimg.com/vi/dZe5bjMJaRw/maxresdefault.jpghttps://i.ytimg.com/vi/CzNEwDzi-iw/hqdefault.jpg
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Atari-Video-Cube |=====================
+Nome: Atari-Video-Cube
+Desenvolvido por: Unknown
+Ano de Lancamento: 1983
+Genero: Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Atlantis |=====================
+Nome: Atlantis
+Desenvolvido por: Imagic
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Bachelor-Party |=====================
+Nome: Bachelor-Party
+Desenvolvido por: Mystique
+Ano de Lancamento: 1982
+Genero: Adult,Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Bank-Heist |=====================
+Nome: Bank-Heist
+Desenvolvido por: 20th-Century-Fox
+Ano de Lancamento: 1983
+Genero: Action,Racing/Driving
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Base-Attack |=====================
+Nome: Base-Attack
+Desenvolvido por: Home-Vision
+Ano de Lancamento: 1983
+Genero: shooter
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Basic-Math-AKA-Fun-With-Numbers |=====================
+Nome: Basic-Math-AKA-Fun-With-Numbers
+Desenvolvido por: Gary-Palmer
+Ano de Lancamento: 1977
+Genero: Educational
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Basketball |=====================
+Nome: Basketball
+Desenvolvido por: Alan-Miller
+Ano de Lancamento: 1978
+Genero: Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Beany-Bopper |=====================
+Nome: Beany-Bopper
+Desenvolvido por: Sirius-Software
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Berenstain-Bears |=====================
+Nome: Berenstain-Bears
+Desenvolvido por: Coleco
+Ano de Lancamento: 1983
+Genero: Educational
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Bermuda-Triangle |=====================
+Nome: Bermuda-Triangle
+Desenvolvido por: Data-Age
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Berzerk |=====================
+Nome: Berzerk
+Desenvolvido por: Dan-Hitchens
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Blackjack |=====================
+Nome: Blackjack
+Desenvolvido por: Bob-Whitehead
+Ano de Lancamento: 1977
+Genero: Simulation
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Blue-Print |=====================
+Nome: Blue-Print
+Desenvolvido por: CBS-Electronics
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Bobby-is-Going-Home |=====================
+Nome: Bobby-is-Going-Home
+Desenvolvido por: Bit-Corporation
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Boxing |=====================
+Nome: Boxing
+Desenvolvido por: Activision
+Ano de Lancamento: 1980
+Genero: Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Brain-Games |=====================
+Nome: Brain-Games
+Desenvolvido por: Larry-Kaplan
+Ano de Lancamento: 1978
+Genero: Educational,Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Buck-Rogers:Planet-of-Zoom |=====================
+Nome: Buck-Rogers:Planet-of-Zoom
+Desenvolvido por: Sega
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Bumper-Bash |=====================
+Nome: Bumper-Bash
+Desenvolvido por: Spectravision
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| BurgerTime |=====================
+Nome: BurgerTime
+Desenvolvido por: Mattel-Electronics
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Busy-Police |=====================
+Nome: Busy-Police
+Desenvolvido por: Unknown
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| California-Games |=====================
+Nome: California-Games
+Desenvolvido por: Epyx
+Ano de Lancamento: 1987
+Genero: Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Canyon-Bomber |=====================
+Nome: Canyon-Bomber
+Desenvolvido por: David-Crane
+Ano de Lancamento: 1979
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Cathouse-Blues |=====================
+Nome: Cathouse-Blues
+Desenvolvido por: Unknown
+Ano de Lancamento: 1982
+Genero: Adult
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Centipede |=====================
+Nome: Centipede
+Desenvolvido por: Unknown
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Chase-the-Chuck-Wagon |=====================
+Nome: Chase-the-Chuck-Wagon
+Desenvolvido por: TMQ-Software
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| China-Syndrome |=====================
+Nome: China-Syndrome
+Desenvolvido por: Spectravision
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Chuck-Norris-Superkicks |=====================
+Nome: Chuck-Norris-Superkicks
+Desenvolvido por: Xonox
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Chuck-Norris-Superkicks/Ghost-Manor |=====================
+Nome: Chuck-Norris-Superkicks/Ghost-Manor
+Desenvolvido por: Xonox
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Codebreaker |=====================
+Nome: Codebreaker
+Desenvolvido por: Unknown
+Ano de Lancamento: 1978
+Genero: Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Commando |=====================
+Nome: Commando
+Desenvolvido por: Imagineering
+Ano de Lancamento: 1988
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Communist-Mutants-from-Space |=====================
+Nome: Communist-Mutants-from-Space
+Desenvolvido por: Starpath
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Confrontation |=====================
+Nome: Confrontation
+Desenvolvido por: Answer-Software
+Ano de Lancamento: 1983
+Genero: Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Cookie-Monster-Munch |=====================
+Nome: Cookie-Monster-Munch
+Desenvolvido por: Gary-Stark
+Ano de Lancamento: 1983
+Genero: Educational
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Cosmic-Ark |=====================
+Nome: Cosmic-Ark
+Desenvolvido por: Imagic
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Cosmic-Creeps |=====================
+Nome: Cosmic-Creeps
+Desenvolvido por: Telesys
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Crackpots |=====================
+Nome: Crackpots
+Desenvolvido por: Activision
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Creature-Strike |=====================
+Nome: Creature-Strike
+Desenvolvido por: Unknown
+Ano de Lancamento: 1992
+Genero: Shooter
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Crossbow |=====================
+Nome: Crossbow
+Desenvolvido por: Unknown
+Ano de Lancamento: 1987
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Crypts-of-Chaos |=====================
+Nome: Crypts-of-Chaos
+Desenvolvido por: 20th-Century-Fox
+Ano de Lancamento: 1982
+Genero: Adventure,Role-Playing(RPG)
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Custer's-Revenge |=====================
+Nome: Custer's-Revenge
+Desenvolvido por: Mystique
+Ano de Lancamento: 1982
+Genero: Adult,Western
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Dark-Chambers |=====================
+Nome: Dark-Chambers
+Desenvolvido por: John-Palevich
+Ano de Lancamento: 1988
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Deadly-Discs |=====================
+Nome: Deadly-Discs
+Desenvolvido por: APh-Technological-Consulting
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Death-Trap |=====================
+Nome: Death-Trap
+Desenvolvido por: Avalon-Hill
+Ano de Lancamento: 1983
+Genero: Action,Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Defender-II |=====================
+Nome: Defender-II
+Desenvolvido por: Bill-Aspromonte,Andrew-Fuchs
+Ano de Lancamento: 1988
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Demon-Attack |=====================
+Nome: Demon-Attack
+Desenvolvido por: Imagic
+Ano de Lancamento: 1982
+Genero: Fixed-shooter
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Desert-Falcon |=====================
+Nome: Desert-Falcon
+Desenvolvido por: Bob-Polaro
+Ano de Lancamento: 1987
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Dodge'Em |=====================
+Nome: Dodge'Em
+Desenvolvido por: Carla-Meninsky
+Ano de Lancamento: 1980
+Genero: Action,Racing
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Dolphin |=====================
+Nome: Dolphin
+Desenvolvido por: Activision
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Donkey-Kong-Junior |=====================
+Nome: Donkey-Kong-Junior
+Desenvolvido por: Woodside-Design-Associates
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Double-Dunk |=====================
+Nome: Double-Dunk
+Desenvolvido por: Matthew-Hubbard
+Ano de Lancamento: 1989
+Genero: Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Dragonfire |=====================
+Nome: Dragonfire
+Desenvolvido por: Imagic
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Dragster |=====================
+Nome: Dragster
+Desenvolvido por: Activision
+Ano de Lancamento: 1980
+Genero: Racing/Driving
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Eggomania |=====================
+Nome: Eggomania
+Desenvolvido por: James-Wickstead-Design-Associates
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Encounter-at-L-5 |=====================
+Nome: Encounter-at-L-5
+Desenvolvido por: Data-Age
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Entombed |=====================
+Nome: Entombed
+Desenvolvido por: Western-Technologies
+Ano de Lancamento: 1983
+Genero: Action,Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Espial |=====================
+Nome: Espial
+Desenvolvido por: Orca-Corporation
+Ano de Lancamento: 1984
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Extra-Terrestrials |=====================
+Nome: Extra-Terrestrials
+Desenvolvido por: Herman-Quast
+Ano de Lancamento: 1984
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Fast-Eddie |=====================
+Nome: Fast-Eddie
+Desenvolvido por: Sirius-Software
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Fatal-Run |=====================
+Nome: Fatal-Run
+Desenvolvido por: Steve-Aguirre
+Ano de Lancamento: 1990
+Genero: Action,Racing/Driving
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Fathom |=====================
+Nome: Fathom
+Desenvolvido por: Imagic
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Fire-Fly |=====================
+Nome: Fire-Fly
+Desenvolvido por: Mythicon
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Fireball |=====================
+Nome: Fireball
+Desenvolvido por: Starpath
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Flash-Gordon |=====================
+Nome: Flash-Gordon
+Desenvolvido por: Sirius-Software
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Football |=====================
+Nome: Football
+Desenvolvido por: Bob-Whitehead
+Ano de Lancamento: 1978
+Genero: Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Freeway |=====================
+Nome: Freeway
+Desenvolvido por: Activision
+Ano de Lancamento: 1981
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Frogger-II:ThreeeDeep! |=====================
+Nome: Frogger-II:ThreeeDeep!
+Desenvolvido por: Parker-Brothers
+Ano de Lancamento: 1984
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Frogs-and-Flies |=====================
+Nome: Frogs-and-Flies
+Desenvolvido por: APh-Technological-Consulting
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Frostbite |=====================
+Nome: Frostbite
+Desenvolvido por: Activision
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| G.I.Joe:Cobra-Strike |=====================
+Nome: G.I.Joe:Cobra-Strike
+Desenvolvido por: Parker-Brothers
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Gangster-Alley |=====================
+Nome: Gangster-Alley
+Desenvolvido por: Spectravision
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Gauntlet |=====================
+Nome: Gauntlet
+Desenvolvido por: Answer-Software
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Ghost-Manor/Spike's-Peak |=====================
+Nome: Ghost-Manor/Spike's-Peak
+Desenvolvido por: Xonox
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Ghostbusters |=====================
+Nome: Ghostbusters
+Desenvolvido por: Activision
+Ano de Lancamento: 1985
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Glib |=====================
+Nome: Glib
+Desenvolvido por: Qualtronic-Devices
+Ano de Lancamento: 1983
+Genero: Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Golf |=====================
+Nome: Golf
+Desenvolvido por: Michael-Lorenzen
+Ano de Lancamento: 1980
+Genero: Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Gorf |=====================
+Nome: Gorf
+Desenvolvido por: Roklan-Corporation
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Great-Escape |=====================
+Nome: Great-Escape
+Desenvolvido por: Bomb
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Gremlins |=====================
+Nome: Gremlins
+Desenvolvido por: Scott-Smith,Mimi-Nyden,Robert-Vieira
+Ano de Lancamento: 1984
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Gyruss |=====================
+Nome: Gyruss
+Desenvolvido por: Roklan-Corporation
+Ano de Lancamento: 1984
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| H.E.R.O. |=====================
+Nome: H.E.R.O.
+Desenvolvido por: Activision
+Ano de Lancamento: 1984
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Haunted-House |=====================
+Nome: Haunted-House
+Desenvolvido por: James-Andreasen
+Ano de Lancamento: 1982
+Genero: Action,Adventure
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Human-Cannonball |=====================
+Nome: Human-Cannonball
+Desenvolvido por: Unknown
+Ano de Lancamento: 1978
+Genero: Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Ice-Hockey |=====================
+Nome: Ice-Hockey
+Desenvolvido por: Activision
+Ano de Lancamento: 1981
+Genero: Action,Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Ikari-Warriors |=====================
+Nome: Ikari-Warriors
+Desenvolvido por: Unknown
+Ano de Lancamento: 1989
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| International-Soccer |=====================
+Nome: International-Soccer
+Desenvolvido por: APh-Technological-Consulting
+Ano de Lancamento: 1982
+Genero: Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Jawbreaker |=====================
+Nome: Jawbreaker
+Desenvolvido por: On-Line-Systems
+Ano de Lancamento: 1981
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Joust |=====================
+Nome: Joust
+Desenvolvido por: Mike-Feinstein-and-Kevin-Osborn
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Jungle-Fever |=====================
+Nome: Jungle-Fever
+Desenvolvido por: PlayAround
+Ano de Lancamento: 1982
+Genero: Adult,Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Jungle-Hunt |=====================
+Nome: Jungle-Hunt
+Desenvolvido por: Mike-Feinstein-and-John-Allred
+Ano de Lancamento: 1983
+Genero: Side-scrolling-action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Karate |=====================
+Nome: Karate
+Desenvolvido por: Ultravision
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Killer-Satellites |=====================
+Nome: Killer-Satellites
+Desenvolvido por: Starpath
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Klax |=====================
+Nome: Klax
+Desenvolvido por: Steve-DeFrisco
+Ano de Lancamento: 1990
+Genero: Action,Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Kool-Aid-Man |=====================
+Nome: Kool-Aid-Man
+Desenvolvido por: Mattel-Electronics
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Lady-in-Wading |=====================
+Nome: Lady-in-Wading
+Desenvolvido por: PlayAround
+Ano de Lancamento: 1982
+Genero: Adult,Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Laser-Gates |=====================
+Nome: Laser-Gates
+Desenvolvido por: Imagic,VentureVision
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Lock'n'-Chase |=====================
+Nome: Lock'n'-Chase
+Desenvolvido por: APh-Technological-Consulting
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Lost-Luggage |=====================
+Nome: Lost-Luggage
+Desenvolvido por: Apollo
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| M*A*S*H |=====================
+Nome: M*A*S*H
+Desenvolvido por: 20th-Century-Fox
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| MagiCard |=====================
+Nome: MagiCard
+Desenvolvido por: CommaVid
+Ano de Lancamento: 1981
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Marauder |=====================
+Nome: Marauder
+Desenvolvido por: On-Line-Systems
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Mario-Bros. |=====================
+Nome: Mario-Bros.
+Desenvolvido por: Dan-Hitchens
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Mariobrothers.png/220px-Mariobrothers.png
+Tela do Jogo: https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Mario_Bros._Gameplay.gif/220px-Mario_Bros._Gameplay.gif
+
+========================================================
+
+====================| Masters-of-the-Universe:The-Power-of-He-Man |=====================
+Nome: Masters-of-the-Universe:The-Power-of-He-Man
+Desenvolvido por: Mattel-Electronics
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Maze-Craze:A-Game-of-Cops-and-Robbers |=====================
+Nome: Maze-Craze:A-Game-of-Cops-and-Robbers
+Desenvolvido por: Rick-Maurer
+Ano de Lancamento: 1980
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Mega-Force |=====================
+Nome: Mega-Force
+Desenvolvido por: 20th-Century-Fox
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Millipede |=====================
+Nome: Millipede
+Desenvolvido por: Dave-Staugas,Jerome-Domurat,Andrew-Fuchs,Robert-Vieira
+Ano de Lancamento: 1984
+Genero: Fixed-Shooter
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Miner-2049er |=====================
+Nome: Miner-2049er
+Desenvolvido por: Big-Five-Software
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Mines-of-Minos |=====================
+Nome: Mines-of-Minos
+Desenvolvido por: CommaVid
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Missile-Command |=====================
+Nome: Missile-Command
+Desenvolvido por: Rob-Fulop
+Ano de Lancamento: 1981
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Mogul-Maniac |=====================
+Nome: Mogul-Maniac
+Desenvolvido por: Video-Soft
+Ano de Lancamento: 1983
+Genero: Action,Simulation,Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Moonsweeper |=====================
+Nome: Moonsweeper
+Desenvolvido por: Imagic
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| MotoRodeo |=====================
+Nome: MotoRodeo
+Desenvolvido por: Steve-DeFrisco
+Ano de Lancamento: 1990
+Genero: Racing/Driving,Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Mountain-King |=====================
+Nome: Mountain-King
+Desenvolvido por: VSS
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Mr.Do! |=====================
+Nome: Mr.Do!
+Desenvolvido por: Individeo
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Name-This-Game |=====================
+Nome: Name-This-Game
+Desenvolvido por: James-Wickstead-Design-Associates
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Night-Driver |=====================
+Nome: Night-Driver
+Desenvolvido por: Rob-Fulop
+Ano de Lancamento: 1980
+Genero: Action,Racing/Driving
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| No-Escape! |=====================
+Nome: No-Escape!
+Desenvolvido por: Imagic
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Off-the-Wall |=====================
+Nome: Off-the-Wall
+Desenvolvido por: Unknown
+Ano de Lancamento: 1989
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Oink! |=====================
+Nome: Oink!
+Desenvolvido por: Activision
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Open-Sesame |=====================
+Nome: Open-Sesame
+Desenvolvido por: Bit-Corporation
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Othello |=====================
+Nome: Othello
+Desenvolvido por: Ed-Logg
+Ano de Lancamento: 1980
+Genero: Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Pac-Man |=====================
+Nome: Pac-Man
+Desenvolvido por: Tod-Frye
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Parachute |=====================
+Nome: Parachute
+Desenvolvido por: Gem-International-Corporation
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Party-Mix |=====================
+Nome: Party-Mix
+Desenvolvido por: Starpath
+Ano de Lancamento: 1983
+Genero: Action,Racing/Driving
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Pengo |=====================
+Nome: Pengo
+Desenvolvido por: Mark-R.Hahn,Andrew-Fuchs,Jeff-Gusman,Courtney-Granner
+Ano de Lancamento: 1984
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Phaser-Patrol |=====================
+Nome: Phaser-Patrol
+Desenvolvido por: Starpath
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Phoenix |=====================
+Nome: Phoenix
+Desenvolvido por: Mike-Feinstein-and-John-Mracek
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Pick'n-Pile |=====================
+Nome: Pick'n-Pile
+Desenvolvido por: Ubisoft
+Ano de Lancamento: 1990
+Genero: Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Piece-o'-Cake |=====================
+Nome: Piece-o'-Cake
+Desenvolvido por: Western-Technologies
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Pitfall-II:Lost-Caverns |=====================
+Nome: Pitfall-II:Lost-Caverns
+Desenvolvido por: Activision
+Ano de Lancamento: 1984
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Plaque-Attack |=====================
+Nome: Plaque-Attack
+Desenvolvido por: Activision
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Pole-Position |=====================
+Nome: Pole-Position
+Desenvolvido por: Doug-Macrae-and-John-Allred
+Ano de Lancamento: 1983
+Genero: Racing/Driving
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Pooyan |=====================
+Nome: Pooyan
+Desenvolvido por: Konami
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Porky's |=====================
+Nome: Porky's
+Desenvolvido por: Dunhill-Electronic-Media,Lazer-Microsystems
+Ano de Lancamento: 1983
+Genero: Adventure
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Private-Eye |=====================
+Nome: Private-Eye
+Desenvolvido por: Activision
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Q*bert's-Qubes |=====================
+Nome: Q*bert's-Qubes
+Desenvolvido por: Mylstar-Electronics
+Ano de Lancamento: 1984
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Quick-Step |=====================
+Nome: Quick-Step
+Desenvolvido por: Imagic
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Racquetball |=====================
+Nome: Racquetball
+Desenvolvido por: Apollo
+Ano de Lancamento: 1981
+Genero: Action,Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Radar-Lock |=====================
+Nome: Radar-Lock
+Desenvolvido por: Doug-Neubauer
+Ano de Lancamento: 1989
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Ram-It |=====================
+Nome: Ram-It
+Desenvolvido por: Telesys
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Reactor |=====================
+Nome: Reactor
+Desenvolvido por: D.Gottlieb&Co.
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| RealSports-Baseball |=====================
+Nome: RealSports-Baseball
+Desenvolvido por: Joseph-Tung
+Ano de Lancamento: 1982
+Genero: Action,Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| RealSports-Football |=====================
+Nome: RealSports-Football
+Desenvolvido por: Robert-Zdybel
+Ano de Lancamento: 1982
+Genero: Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| RealSports-Tennis |=====================
+Nome: RealSports-Tennis
+Desenvolvido por: Unknown
+Ano de Lancamento: 1983
+Genero: Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Revenge-of-the-Beefsteak-Tomatoes |=====================
+Nome: Revenge-of-the-Beefsteak-Tomatoes
+Desenvolvido por: 20th-Century-Fox
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| River-Patrol |=====================
+Nome: River-Patrol
+Desenvolvido por: Orca-Corporation
+Ano de Lancamento: 1984
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| River-Raid-II |=====================
+Nome: River-Raid-II
+Desenvolvido por: Imagineering
+Ano de Lancamento: 1988
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Road-Runner |=====================
+Nome: Road-Runner
+Desenvolvido por: Bob-Polaro
+Ano de Lancamento: 1989
+Genero: Action,Racing/Driving
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Robin-Hood |=====================
+Nome: Robin-Hood
+Desenvolvido por: Xonox
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Roc'n-Rope |=====================
+Nome: Roc'n-Rope
+Desenvolvido por: Coleco
+Ano de Lancamento: 1984
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Sea-Hawk |=====================
+Nome: Sea-Hawk
+Desenvolvido por: Froggo
+Ano de Lancamento: 1988
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Sea-Hunt |=====================
+Nome: Sea-Hunt
+Desenvolvido por: Froggo
+Ano de Lancamento: 1987
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Secret-Quest |=====================
+Nome: Secret-Quest
+Desenvolvido por: Steve-DeFrisco,Nolan-Bushnell
+Ano de Lancamento: 1989
+Genero: Adventure
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Shuttle-Orbiter |=====================
+Nome: Shuttle-Orbiter
+Desenvolvido por: Avalon-Hill
+Ano de Lancamento: 1983
+Genero: Action,Simulation
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Skate-Boardin':A-Radical-Adventure |=====================
+Nome: Skate-Boardin':A-Radical-Adventure
+Desenvolvido por: Imagineering
+Ano de Lancamento: 1987
+Genero: Action,Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Skiing |=====================
+Nome: Skiing
+Desenvolvido por: Activision
+Ano de Lancamento: 1980
+Genero: Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Sky-Diver |=====================
+Nome: Sky-Diver
+Desenvolvido por: Jim-Huether
+Ano de Lancamento: 1979
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Sky-Skipper |=====================
+Nome: Sky-Skipper
+Desenvolvido por: Parker-Brothers
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Slot-Racers |=====================
+Nome: Slot-Racers
+Desenvolvido por: Warren-Robinett
+Ano de Lancamento: 1978
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Sneak'N-Peek |=====================
+Nome: Sneak'N-Peek
+Desenvolvido por: James-Wickstead-Design-Associates
+Ano de Lancamento: 1982
+Genero: Simulation
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Solar-Storm |=====================
+Nome: Solar-Storm
+Desenvolvido por: Imagic
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Solaris |=====================
+Nome: Solaris
+Desenvolvido por: Doug-Neubauer
+Ano de Lancamento: 1986
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Space-Adventure |=====================
+Nome: Space-Adventure
+Desenvolvido por: unknown
+Ano de Lancamento: 1981
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Space-Canyon |=====================
+Nome: Space-Canyon
+Desenvolvido por: Apollo
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Space-Invaders |=====================
+Nome: Space-Invaders
+Desenvolvido por: Rick-Maurer
+Ano de Lancamento: 1980
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Spacechase |=====================
+Nome: Spacechase
+Desenvolvido por: Apollo
+Ano de Lancamento: 1981
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Spacemaster-X-7 |=====================
+Nome: Spacemaster-X-7
+Desenvolvido por: Sirius-Software
+Ano de Lancamento: 1983
+Genero: Action,Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Spider-Man |=====================
+Nome: Spider-Man
+Desenvolvido por: Parker-Brothers
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Spiderdroid |=====================
+Nome: Spiderdroid
+Desenvolvido por: Froggo
+Ano de Lancamento: 1987
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Spitfire-Attack |=====================
+Nome: Spitfire-Attack
+Desenvolvido por: Milton-Bradley
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Sprint-Master |=====================
+Nome: Sprint-Master
+Desenvolvido por: Bob-Polaro
+Ano de Lancamento: 1988
+Genero: Action,Racing/Driving
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Spy-Hunter |=====================
+Nome: Spy-Hunter
+Desenvolvido por: Sega
+Ano de Lancamento: 1984
+Genero: Action,Racing/Driving
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Sssnake |=====================
+Nome: Sssnake
+Desenvolvido por: Data-Age
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Star-Fox |=====================
+Nome: Star-Fox
+Desenvolvido por: Mythicon
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Star-Ship |=====================
+Nome: Star-Ship
+Desenvolvido por: Bob-Whitehead
+Ano de Lancamento: 1977
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Star-Trek:Strategic-Operations-Simulator |=====================
+Nome: Star-Trek:Strategic-Operations-Simulator
+Desenvolvido por: Sega
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Star-Wars-Return-of-the-Jedi:Death-Star-Battle |=====================
+Nome: Star-Wars-Return-of-the-Jedi:Death-Star-Battle
+Desenvolvido por: Parker-Brothers
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Star-Wars:The-Arcade-Game |=====================
+Nome: Star-Wars:The-Arcade-Game
+Desenvolvido por: James-Wickstead-Design-Associates
+Ano de Lancamento: 1984
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Starmaster |=====================
+Nome: Starmaster
+Desenvolvido por: Activision
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Steeplechase |=====================
+Nome: Steeplechase
+Desenvolvido por: Jim-Huether
+Ano de Lancamento: 1980
+Genero: Action,Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Strategy-X |=====================
+Nome: Strategy-X
+Desenvolvido por: Konami
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Street-Racer |=====================
+Nome: Street-Racer
+Desenvolvido por: Larry-Kaplan
+Ano de Lancamento: 1977
+Genero: Racing/Driving
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Stronghold |=====================
+Nome: Stronghold
+Desenvolvido por: CommaVid
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Subterranea |=====================
+Nome: Subterranea
+Desenvolvido por: Imagic
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Summer-Games |=====================
+Nome: Summer-Games
+Desenvolvido por: Epyx
+Ano de Lancamento: 1987
+Genero: Action,Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Super-Baseball |=====================
+Nome: Super-Baseball
+Desenvolvido por: Unknown
+Ano de Lancamento: 1988
+Genero: Action,Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Super-Challenge-Football |=====================
+Nome: Super-Challenge-Football
+Desenvolvido por: APh-Technological-Consulting
+Ano de Lancamento: 1982
+Genero: Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Super-Football |=====================
+Nome: Super-Football
+Desenvolvido por: Doug-Neubauer
+Ano de Lancamento: 1988
+Genero: Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Surround |=====================
+Nome: Surround
+Desenvolvido por: Alan-Miller
+Ano de Lancamento: 1977
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Survival-Island |=====================
+Nome: Survival-Island
+Desenvolvido por: Starpath
+Ano de Lancamento: 1983
+Genero: Adventure
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Sword-of-Saros |=====================
+Nome: Sword-of-Saros
+Desenvolvido por: Starpath
+Ano de Lancamento: 1983
+Genero: Adventure,RPG
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Swordquest:Fireworld |=====================
+Nome: Swordquest:Fireworld
+Desenvolvido por: Tod-Frye
+Ano de Lancamento: 1983
+Genero: Adventure
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Tapeworm |=====================
+Nome: Tapeworm
+Desenvolvido por: Spectravision
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Tax-Avoiders |=====================
+Nome: Tax-Avoiders
+Desenvolvido por: Dunhill-Electronics
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Taz |=====================
+Nome: Taz
+Desenvolvido por: Steve-Woita
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| The-Music-Machine |=====================
+Nome: The-Music-Machine
+Desenvolvido por: Christian-Software-Development
+Ano de Lancamento: 1983
+Genero: Action,Educational
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| The-Texas-Chainsaw-Massacre |=====================
+Nome: The-Texas-Chainsaw-Massacre
+Desenvolvido por: VSS
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Thunderground |=====================
+Nome: Thunderground
+Desenvolvido por: Sega
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Title-Match-Pro-Wrestling |=====================
+Nome: Title-Match-Pro-Wrestling
+Desenvolvido por: Imagineering
+Ano de Lancamento: 1987
+Genero: Sports
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Tomcat:The-F-14-Fighter-Simulator-AKA-Dan-Kitchen's-Tomcat:The-F-14-Fighter-Simulator |=====================
+Nome: Tomcat:The-F-14-Fighter-Simulator-AKA-Dan-Kitchen's-Tomcat:The-F-14-Fighter-Simulator
+Desenvolvido por: Imagineering(Dan-Kitchen)
+Ano de Lancamento: 1988
+Genero: Action,Simulation
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Towering-Inferno |=====================
+Nome: Towering-Inferno
+Desenvolvido por: Western-Technologies
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Tron:Deadly-Discs |=====================
+Nome: Tron:Deadly-Discs
+Desenvolvido por: APh-Technological-Consulting
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Turmoil |=====================
+Nome: Turmoil
+Desenvolvido por: Sirius-Software
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Up'n-Down |=====================
+Nome: Up'n-Down
+Desenvolvido por: Sega
+Ano de Lancamento: 1984
+Genero: Action,Racing/Driving
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Vanguard |=====================
+Nome: Vanguard
+Desenvolvido por: Dave-Payne
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Video-Chess |=====================
+Nome: Video-Chess
+Desenvolvido por: Larry-Wagner,Bob-Whitehead
+Ano de Lancamento: 1979
+Genero: Strategy
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Video-Jogger |=====================
+Nome: Video-Jogger
+Desenvolvido por: Exus-Corporation
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Video-Pinball |=====================
+Nome: Video-Pinball
+Desenvolvido por: Bob-Smith
+Ano de Lancamento: 1980
+Genero: Pinball
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Video-Reflex |=====================
+Nome: Video-Reflex
+Desenvolvido por: Exus-Corporation
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Wall-Defender |=====================
+Nome: Wall-Defender
+Desenvolvido por: Bomb
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Weltraumtunnel(Space-Tunnel) |=====================
+Nome: Weltraumtunnel(Space-Tunnel)
+Desenvolvido por: BitCorp
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Wing-War |=====================
+Nome: Wing-War
+Desenvolvido por: Imagic
+Ano de Lancamento: 1983
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Wizard-of-Wor |=====================
+Nome: Wizard-of-Wor
+Desenvolvido por: Roklan-Corporation
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Worm-War-I |=====================
+Nome: Worm-War-I
+Desenvolvido por: Sirius-Software
+Ano de Lancamento: 1982
+Genero: Shooter
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Xenophobe |=====================
+Nome: Xenophobe
+Desenvolvido por: Unknown
+Ano de Lancamento: 1990
+Genero: Action
+Capa do Jogo: vazio
+Tela do Jogo: vazio
+
+========================================================
+
+====================| Zaxxon |=====================
+Nome: Zaxxon
+Desenvolvido por: Coleco
+Ano de Lancamento: 1982
+Genero: Action
+Capa do Jogo: https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/Zaxxon_flyer.jpg/220px-Zaxxon_flyer.jpg
+Tela do Jogo: https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/ARC_Zaxxon.png/220px-ARC_Zaxxon.png
+
+========================================================
