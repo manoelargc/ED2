@@ -30,4 +30,4 @@ Algumas opções disponíveis no menu são:
 É imprescíncivel para a execução do arquivo certificar que realizou download do arquivo [lista_jogos.txt](https://github.com/manoelargc/ED2/blob/main/arvbin_atari/output/lista_jogos.txt) e que esteja na mesma pasta do código.
 
 
-![Exemplo]([https://github.com/manoelargc/ED2/blob/main/output/meme.png](https://github.com/manoelargc/ED2/blob/main/arvbin_atari/output/grafo_jogos.png)https://github.com/manoelargc/ED2/blob/main/arvbin_atari/output/grafo_jogos.png)
+![Exemplo](https://github.com/manoelargc/ED2/blob/main/arvbin_atari/output/grafo_jogos.png)
